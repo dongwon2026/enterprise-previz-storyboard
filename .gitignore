@@ -29,3 +29,6 @@ next-env.d.ts
 # 이 컴퓨터에서의 작업 이력이라 공개 저장소에 올리지 않는다
 /.bkit/
 /.claude/
+
+.vercel
+.env*
