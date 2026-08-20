@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* ENA 브랜드 색상 · 서체 토큰 (DESIGN.md / prd_lite.md 5절)
+   Tailwind CSS 4의 @theme 문법으로 등록해두면 bg-ena-blue, text-ena-blue,
+   font-sans 같은 유틸리티 클래스에서 바로 사용할 수 있다 */
+@theme {
+  --color-ena-blue: #2c24ce; /* 포인트 컬러는 이 색 하나만 사용 */
+  --font-sans: var(--font-kt-flow), "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+/* 콘텐츠 영역은 항상 흰 배경, PC(최소 1440px) 전용 레이아웃 —
+   1440px보다 좁으면 화면을 줄이는 대신 가로 스크롤을 허용한다 */
+body {
+  background: #ffffff;
+  color: #14141a;
+  min-width: 1440px;
+}

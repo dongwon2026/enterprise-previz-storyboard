@@ -1,0 +1,31 @@
+.env
+node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# 검토 후 직접 삭제할 파일 임시 보관함
+/trash-can/
+
+# 배포 준비(사용자 요청) — Vercel CLI가 만드는 로컬 프로젝트 연결 정보(계정/프로젝트 식별자)
+/.vercel
+
+# 로컬 AI 툴링 상태(bkit PDCA 진행 상황, 세션 감사 로그, 에이전트 메모리) — 앱 소스가 아니라
+# 이 컴퓨터에서의 작업 이력이라 공개 저장소에 올리지 않는다
+/.bkit/
+/.claude/
